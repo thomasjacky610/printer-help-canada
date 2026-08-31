@@ -6,6 +6,58 @@
   <meta name="description" content="PrintWise Canada — your complete resource for understanding printers. Types, features, how they work, and how to choose the right one for your Canadian home or office."/>
   <title>PrintWise | Printer Information Resource for Canadians</title>
   <link rel="stylesheet" href="style.css"/>
+
+<style>
+  	.callbar{
+  font-family: Arial, Helvetica, sans-serif;
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background:#ffffff;
+  text-align:center;
+  padding:14px 0px;
+  z-index:999999;
+  box-shadow:0 -3px 12px rgba(0,0,0,0.15);
+}
+  .callbar a{
+  color:#0e6db9;
+  font-weight:700;
+  text-decoration:none;
+  font-size:20px;
+}
+
+.callbar span{
+  display:inline;
+}
+
+/* mobile two lines */
+@media(max-width:768px){
+  .callbar a{
+    font-size:25px;
+    line-height:1.4;
+  }
+  
+  .t1{
+	font-size: 15px; !important
+	}
+	
+	.callbar .t1{
+	  color:#000 !important;   /* Need Help text = black */
+	}
+	
+		.callbar .t2{
+	  color:#ff0000 !important; /* Number = blue */
+	  font-family: Arial, Helvetica, sans-serif;
+	  padding: 0px 0px 50px 0px;
+	}
+  
+  .callbar span{
+    display:block;
+  } 
+}
+</style>
+  
 </head>
 <body>
 
@@ -403,6 +455,13 @@
     </div>
   </div>
 </section>
+
+<div class="callbar">
+  <a href="tel:+18772616792">
+    <span class="t1">Need Help? Talk to an Expert</span>
+    <span class="t2" style="color:#ff0000">+1 (877) 261-6792</span>
+  </a>
+</div>
 
 <!-- FOOTER -->
 <footer class="footer">
